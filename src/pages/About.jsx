@@ -5,24 +5,25 @@ import Footer from '../components/Footer.jsx'
 const timeline = [
   {
     stage: '01',
-    title: 'The problem',
-    text: 'Most students and early professionals track money in scattered notes apps or forget to track it at all, so they only notice a shortfall after it happens.',
+    title: 'The Idea',
+    text: 'I noticed that it is easy to lose track of small expenses when they are spread across different apps or notes. So I decided to make one simple place to record them .',
   },
   {
     stage: '02',
-    title: 'Our solution',
-    text: 'Ledgerly gives every transaction a home: type, amount, category, date and a note. The app turns that list into totals, category breakdowns and budget alerts automatically.',
+    title: 'What Ledgerly does',
+    text: 'You can add income and expenses, choose a category, add a date and keep a record of your transactions. The dashboard then shows the information in a simpler way.',
   },
   {
     stage: '03',
-    title: 'How it works today',
-    text: 'Version 1 runs entirely in the browser. Transactions, budgets and your account are all saved to localStorage, so nothing needs a server to work during development or a demo.',
+    title: 'What I Learned',
+    text: 'This Project helped us practice React, JavaScript, components, routing and storing data in the browser . I also learned a lot about making different parts of a website work together.',
   },
   {
-    stage: '04',
-    title: 'Where it is going',
-    text: 'The same components and data flow are built to plug into a real backend: Express APIs, MongoDB storage and JWT-based authentication, without rewriting the interface.',
-  },
+  stage: '',
+  title: 'Built as a CSE Project',
+  text: 'I built Ledgerly as my 2nd-year CSE project. The idea was to make a simple expense tracker where users can add their income and expenses and easily see where their money is going.',
+},
+ 
 ]
 
 const tech = ['HTML', 'CSS', 'JavaScript', 'React', 'React Router', 'localStorage', 'Vite']
@@ -41,13 +42,10 @@ function About() {
 
       <section className="about-hero">
         <div className="container">
-          <div className="hero-eyebrow">About the project</div>
-          <h1>A small, honest tool for a common problem.</h1>
+          <div className="hero-eyebrow">About Ledgerely</div>
+          <h1>A simple expense tracker I built to make keeping track of money a little easier.</h1>
           <p style={{ maxWidth: '58ch', fontSize: '1.05rem' }}>
-            Ledgerly started as a university CSE project with one goal: build a
-            personal expense tracker that is genuinely useful, explainable line
-            by line, and structured well enough to keep growing across three
-            project milestones.
+           Ledgerly is my 2nd-year CSE project. I wanted to build something practical instead of just making another basic demo website. It lets you add income and expenses, organise transactions and get a quick idea of where your money is going.
           </p>
         </div>
       </section>
@@ -55,7 +53,7 @@ function About() {
       <section className="section section-alt">
         <div className="container">
           <div className="section-head">
-            <h2>From problem to product</h2>
+            <h2>Why I made Ledgerly</h2>
           </div>
           <div className="timeline-list">
             {timeline.map((item) => (

@@ -115,9 +115,9 @@ function Home() {
             </div>
 
             <div className="home-bottom-strip">
-              <div><b>01</b><span>Record</span><small>Everyday transactions in seconds.</small></div>
-              <div><b>02</b><span>Review</span><small>See income, expenses and savings together.</small></div>
-              <div><b>03</b><span>Understand</span><small>Use categories to spot spending patterns.</small></div>
+              <div><b>01</b><span>Record</span><small>Add your daily income and expenses easily.</small></div>
+              <div><b>02</b><span>Review</span><small>Check where your money is going each month.</small></div>
+              <div><b>03</b><span>Understand</span><small>See your spending by category and find areas where you can save.</small></div>
             </div>
           </div>
         </section>

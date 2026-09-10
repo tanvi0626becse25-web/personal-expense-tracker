@@ -11,8 +11,8 @@ function Footer() {
               Ledgerly
             </div>
             <p style={{ maxWidth: '32ch', fontSize: '0.92rem' }}>
-              A simple expense tracker made for a university project.
-              Record transactions, check totals and manage a monthly budget.
+              A Basic expense tracker made as a CSE project . Add your income and expenses,
+              keep track of your spending, and manage your monthly budget.
             </p>
           </div>
           <div>
@@ -30,17 +30,10 @@ function Footer() {
               <li><Link to="/register">Register</Link></li>
             </ul>
           </div>
-          <div>
-            <h4>Project</h4>
-            <ul>
-              <li>CSE University Project</li>
-              <li>Version 1 — Frontend</li>
-            </ul>
-          </div>
         </div>
         <div className="footer-bottom">
           <span>© 2026 Ledgerly · University project</span>
-          <span>Version 1 · HTML, CSS, JavaScript, React</span>
+         
         </div>
       </div>
     </footer>

@@ -1,23 +1,39 @@
 :root {
-  --ink: #26343a;
-  --ink-soft: #536168;
-  --muted: #7b858b;
-  --paper: #f4f0e8;
-  --surface: #fffdf8;
-  --surface-2: #ebe6dc;
-  --border: #ded8cd;
-  --border-strong: #b9b1a3;
-  --primary: #35636a;
-  --primary-dark: #294e54;
-  --primary-soft: #e7efed;
-  --gold: #b7833f;
-  --gold-soft: #f3e8d5;
-  --income: #35636a;
-  --expense: #b35f49;
-  --expense-soft: #f4e4df;
+  --ink: #29213D;
+  --ink-soft: #51436A;
+  --muted: #817694;
+
+  --paper: #FAF8FC;
+  --surface: #FFFFFF;
+  --surface-2: #F0EAF7;
+
+  --border: #DDD3E8;
+  --border-strong: #C3B2D5;
+
+  --primary: #713F8F;
+  --primary-dark: #552D6D;
+  --primary-soft: #F0E5F5;
+
+  --gold: #D9E76C;
+  --gold-dark: #A8B52D;
+  --gold-soft: #F5F8D8;
+
+  --income: #3E8E62;
+  --income-soft: #DFF1E5;
+
+  --expense: #D94F70;
+  --expense-soft: #FBE1E8;
+
+  --teal: #38A3A5;
+  --teal-soft: #DDF5F5;
+
+  --orange: #F28C28;
+  --orange-soft: #FFF0DC;
+
   --font-display: 'Fraunces', Georgia, serif;
-  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
-  --radius: 10px;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  --radius: 12px;
   --sidebar-width: 238px;
   --max-width: 1160px;
 }
